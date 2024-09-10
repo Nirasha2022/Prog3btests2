@@ -20,7 +20,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.x' # Adjust the version as needed
+          dotnet-version: '7.0.x' # Adjust to match your .NET version
 
       - name: Restore dependencies
         run: dotnet restore
